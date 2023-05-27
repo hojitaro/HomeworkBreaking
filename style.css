@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@font-face {
+	font-family: 'chalk';
+	src: url('./DkCrayonCrumble-ddll.ttf') format('truetype');
+}
+
+body {
+  background: #b1c7cb;
+  display: block;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+#out {
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+
+#join {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #5c5c5c;
+    animation-name: sample-animation;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    z-index: 2;
+}
+
+@keyframes sample-animation {
+    from{
+        opacity: 1.0;
+    }
+    to{
+        opacity: 0.0;
+    }
+}
+
+
+#welcome {
+  position: absolute;
+  display: flex;
+  font-size: 15vh;
+  color: white;
+  font-family: 'chalk', sans-serif;
+}
+
+#blackboard {
+  background-image: url('./img/blackboard.png');
+  background-size: cover;
+}
+
+#edge {
+  padding: 3vh;
+  background-image: url('./img/planks.png');
+  background-size: cover;
+  box-shadow: 1vh 3vh 5vh 0 rgba(0, 0, 0, 0.7);
+}
+
+.subject {
+  display: flex;
+  font-family: 'chalk';
+  font-size: 8vh;
+}
+
+.sub_num {
+  width: 10vh;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  box-sizing: border-box;
+  font-size: 6vh;
+}
+
+.sub_num p {
+  margin: 0.3em;
+}
+
+.subject input {
+  width: 70vh;
+  height: 10vh;
+  text-align: center;
+  background: transparent;
+  font-family: 'chalk';
+  color: white;
+  border: 2px solid white;
+  font-size: 6vh;
+}
+
+.subject input:hover{
+  border: 4px solid #ff2e82;
+}

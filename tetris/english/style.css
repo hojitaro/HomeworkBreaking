@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'chalk';
+	src: url('../../DkCrayonCrumble-ddll.ttf') format('truetype');
+}
+
+body {
+    background: #b1c7cb;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#gamepanel {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+canvas {
+    margin: 2vh;
+    border: 2px solid #000000;
+    width: 90vh;
+    height: 90vh;
+}
+
+#canvas_edge {
+    margin-right: 10vh;
+    width: 94vh;
+    height: 94vh;
+    background-image: url('../../img/planks.png');
+    background-size: cover;
+    box-shadow: 1vh 3vh 5vh 0 rgba(0, 0, 0, 0.7);
+}
+
+#info_edge {
+    width: 54vh;
+    height: 54vh;
+    background-image: url('../../img/planks.png');
+    background-size: cover;
+    box-shadow: 1vh 3vh 5vh 0 rgba(0, 0, 0, 0.7);
+}
+
+#blackboard {
+    margin: 2vh;
+    width: 50vh;
+    height: 50vh;
+    background-image: url('../../img/blackboard.png');
+    background-size: cover;
+}
+
+#info {
+    position: relative;
+    left: 25%;
+    top: 15%;
+}
+
+#scoreboard {
+    font-size: 100px;
+    font-size: 10vh;
+    font-family: 'chalk';
+    color: white;
+}
+
+#start {
+    margin-top: 2vh;
+    width: 30vh;
+    height: 15vh;
+    font-size: 5vh;
+    font-family: 'chalk';
+}
+
+#state {
+    font-size: 5vh;
+    font-family: 'chalk';
+    color: #ff2e82;
+    font-weight: bold;
+}

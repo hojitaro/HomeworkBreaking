@@ -1,0 +1,48 @@
+{
+    "def_speed": 20.0,
+    "speed_rate": 5.0,
+    "tile_data": [
+        {
+            "img": "./physics/img/phy1.jpg",
+            "score": 100,
+            "chance": 0.1
+        },
+        {
+            "img": "./physics/img/phy2.png",
+            "score": 50,
+            "chance": 0.2
+        },
+        {
+            "img": "./physics/img/phy3.png",
+            "score": 50,
+            "chance": 0.2
+        },
+        {
+            "img": "./physics/img/phy4.jpg",
+            "score": 10,
+            "chance": 0.5
+        }
+    ],
+    "random_tile": true,
+    "tile_type": [
+        [
+        1, 1, 1, 1
+        ],
+        [
+        1, 1, 0, 0,
+        1, 1, 0, 0
+        ],
+        [
+        1, 1, 0, 0,
+        0, 1, 1, 0
+        ],
+        [
+        1, 1, 1, 0,
+        1, 0, 0, 0
+        ],
+        [
+        1, 1, 1, 0,
+        0, 1, 0, 0
+        ]
+      ]
+}

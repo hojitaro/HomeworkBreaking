@@ -1,0 +1,48 @@
+{
+    "def_speed": 30.0,
+    "speed_rate": 5.0,
+    "tile_data": [
+        {
+            "img": "./logical_jp/img/jp1.jpg",
+            "score": 50,
+            "chance": 0.4
+        },
+        {
+            "img": "./logical_jp/img/jp2.png",
+            "score": 100,
+            "chance": 0.3
+        },
+        {
+            "img": "./logical_jp/img/jp3.jpg",
+            "score": 500,
+            "chance": 0.1
+        },
+        {
+            "img": "./logical_jp/img/jp4.jpg",
+            "score": 300,
+            "chance": 0.2
+        }
+    ],
+    "random_tile": true,
+    "tile_type": [
+        [
+        1, 1, 1, 1
+        ],
+        [
+        1, 1, 0, 0,
+        1, 1, 0, 0
+        ],
+        [
+        1, 1, 0, 0,
+        0, 1, 1, 0
+        ],
+        [
+        1, 1, 1, 0,
+        1, 0, 0, 0
+        ],
+        [
+        1, 1, 1, 0,
+        0, 1, 0, 0
+        ]
+      ]
+}

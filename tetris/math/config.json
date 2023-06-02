@@ -1,0 +1,48 @@
+{
+    "def_speed": 10.0,
+    "speed_rate": 5.0,
+    "tile_data": [
+        {
+            "img": "./math/img/4pro.jpg",
+            "score": 10,
+            "chance": 0.4
+        },
+        {
+            "img": "./math/img/blue1A.jpg",
+            "score": 50,
+            "chance": 0.3
+        },
+        {
+            "img": "./math/img/1tai1_1.jpg",
+            "score": 100,
+            "chance": 0.2
+        },
+        {
+            "img": "./math/img/1tai1_A.jpg",
+            "score": 200,
+            "chance": 0.1
+        }
+    ],
+    "random_tile": true,
+    "tile_type": [
+        [
+        1, 1, 1, 1
+        ],
+        [
+        1, 1, 0, 0,
+        1, 1, 0, 0
+        ],
+        [
+        1, 1, 0, 0,
+        0, 1, 1, 0
+        ],
+        [
+        1, 1, 1, 0,
+        1, 0, 0, 0
+        ],
+        [
+        1, 1, 1, 0,
+        0, 1, 0, 0
+        ]
+      ]
+}

@@ -1,0 +1,43 @@
+{
+    "def_speed": 20.0,
+    "speed_rate": 5.0,
+    "tile_data": [
+        {
+            "img": "./geography/img/geo1.jpg",
+            "score": 5,
+            "chance": 0.5
+        },
+        {
+            "img": "./geography/img/geo2.png",
+            "score": 10,
+            "chance": 0.3
+        },
+        {
+            "img": "./geography/img/geo3.png",
+            "score": 100,
+            "chance": 0.2
+        }
+    ],
+    "random_tile": true,
+    "tile_type": [
+        [
+        1, 1, 1, 1
+        ],
+        [
+        1, 1, 0, 0,
+        1, 1, 0, 0
+        ],
+        [
+        1, 1, 0, 0,
+        0, 1, 1, 0
+        ],
+        [
+        1, 1, 1, 0,
+        1, 0, 0, 0
+        ],
+        [
+        1, 1, 1, 0,
+        0, 1, 0, 0
+        ]
+      ]
+}

@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'chalk';
-	src: url('../../DkCrayonCrumble-ddll.ttf') format('truetype');
+	src: url('../DkCrayonCrumble-ddll.ttf') format('truetype');
 }
 
 body {
@@ -29,7 +29,7 @@ canvas {
     margin-right: 10vh;
     width: 94vh;
     height: 94vh;
-    background-image: url('../../img/planks.png');
+    background-image: url('../img/planks.png');
     background-size: cover;
     box-shadow: 1vh 3vh 5vh 0 rgba(0, 0, 0, 0.7);
 }
@@ -37,7 +37,7 @@ canvas {
 #info_edge {
     width: 54vh;
     height: 54vh;
-    background-image: url('../../img/planks.png');
+    background-image: url('../img/planks.png');
     background-size: cover;
     box-shadow: 1vh 3vh 5vh 0 rgba(0, 0, 0, 0.7);
 }
@@ -46,7 +46,7 @@ canvas {
     margin: 2vh;
     width: 50vh;
     height: 50vh;
-    background-image: url('../../img/blackboard.png');
+    background-image: url('../img/blackboard.png');
     background-size: cover;
 }
 

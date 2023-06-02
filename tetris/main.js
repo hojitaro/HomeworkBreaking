@@ -12,7 +12,7 @@ window.onload = () => {
     const fps = 60.0; // 1秒あたりに何回描画するか
     const tileSize = 128; // ブロックの大きさ
     const backImg = new Image(); // 背景画像
-    backImg.src = "../../img/blackboard.png";
+    backImg.src = "../img/blackboard.png";
     const tileLineLen = 4; // 落ちてくるブロックの幅
     const scoreUnit = "pt"; // 表示するスコアの単位
 

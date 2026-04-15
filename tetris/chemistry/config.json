@@ -1,20 +1,25 @@
 {
-    "def_speed": 15.0,
+    "def_speed": 10.0,
     "speed_rate": 5.0,
     "tile_data": [
         {
-            "img": "./chemistry/img/chem1.png",
-            "score": 10,
-            "chance": 0.5
+            "img": "./chemistry/img/chem1.jpg",
+            "score": 40,
+            "chance": 0.3
         },
         {
             "img": "./chemistry/img/chem2.jpg",
-            "score": 50,
+            "score": 20,
             "chance": 0.3
         },
         {
             "img": "./chemistry/img/chem3.jpg",
             "score": 100,
+            "chance": 0.2
+        },
+        {
+            "img": "./chemistry/img/chem4.jpg",
+            "score": 80,
             "chance": 0.2
         }
     ],
@@ -32,8 +37,16 @@
         0, 1, 1, 0
         ],
         [
+        0, 0, 1, 1,
+        0, 1, 1, 0
+        ],
+        [
         1, 1, 1, 0,
         1, 0, 0, 0
+        ],
+        [
+        0, 1, 1, 1,
+        0, 0, 0, 1
         ],
         [
         1, 1, 1, 0,

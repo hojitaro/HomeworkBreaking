@@ -1,26 +1,36 @@
 {
-    "def_speed": 20.0,
+    "def_speed": 10.0,
     "speed_rate": 5.0,
     "tile_data": [
         {
             "img": "./physics/img/phy1.jpg",
-            "score": 100,
-            "chance": 0.1
+            "score": 20,
+            "chance": 0.25
         },
         {
             "img": "./physics/img/phy2.png",
-            "score": 50,
-            "chance": 0.2
+            "score": 10,
+            "chance": 0.20
         },
         {
             "img": "./physics/img/phy3.png",
-            "score": 50,
-            "chance": 0.2
+            "score": 10,
+            "chance": 0.20
         },
         {
-            "img": "./physics/img/phy4.jpg",
-            "score": 10,
-            "chance": 0.5
+            "img": "./physics/img/phy5.jpg",
+            "score": 70,
+            "chance": 0.125
+        },
+        {
+            "img": "./physics/img/phy6.jpg",
+            "score": 50,
+            "chance": 0.125
+        },
+        {
+            "img": "./physics/img/phy7.jpg",
+            "score": 100,
+            "chance": 0.1
         }
     ],
     "random_tile": true,
@@ -37,8 +47,16 @@
         0, 1, 1, 0
         ],
         [
+        0, 0, 1, 1,
+        0, 1, 1, 0
+        ],
+        [
         1, 1, 1, 0,
         1, 0, 0, 0
+        ],
+        [
+        0, 1, 1, 1,
+        0, 0, 0, 1
         ],
         [
         1, 1, 1, 0,

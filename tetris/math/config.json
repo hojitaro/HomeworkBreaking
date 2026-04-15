@@ -1,25 +1,40 @@
 {
-    "def_speed": 10.0,
+    "def_speed": 6.0,
     "speed_rate": 5.0,
     "tile_data": [
         {
-            "img": "./math/img/4pro.jpg",
+            "img": "./math/img/math1.jpg",
             "score": 10,
-            "chance": 0.4
+            "chance": 0.25
         },
         {
-            "img": "./math/img/blue1A.jpg",
+            "img": "./math/img/math2.jpg",
+            "score": 30,
+            "chance": 0.25
+        },
+        {
+            "img": "./math/img/math3.jpg",
             "score": 50,
-            "chance": 0.3
+            "chance": 0.1
         },
         {
-            "img": "./math/img/1tai1_1.jpg",
+            "img": "./math/img/math4.jpg",
+            "score": 70,
+            "chance": 0.1
+        },
+        {
+            "img": "./math/img/math5.jpg",
             "score": 100,
-            "chance": 0.2
+            "chance": 0.1
         },
         {
-            "img": "./math/img/1tai1_A.jpg",
-            "score": 200,
+            "img": "./math/img/math6.jpg",
+            "score": 100,
+            "chance": 0.1
+        },
+        {
+            "img": "./math/img/math7.jpg",
+            "score": 80,
             "chance": 0.1
         }
     ],
@@ -37,8 +52,16 @@
         0, 1, 1, 0
         ],
         [
+        0, 0, 1, 1,
+        0, 1, 1, 0
+        ],
+        [
         1, 1, 1, 0,
         1, 0, 0, 0
+        ],
+        [
+        0, 1, 1, 1,
+        0, 0, 0, 1
         ],
         [
         1, 1, 1, 0,

@@ -1,26 +1,36 @@
 {
-    "def_speed": 10.0,
+    "def_speed": 6.0,
     "speed_rate": 5.0,
     "tile_data": [
         {
-            "img": "./english/img/en1.png",
-            "score": 10,
-            "chance": 0.4
+            "img": "./english/img/en1.jpg",
+            "score": 90,
+            "chance": 0.1
         },
         {
             "img": "./english/img/en2.jpg",
-            "score": 100,
+            "score": 60,
             "chance": 0.2
         },
         {
             "img": "./english/img/en3.jpg",
-            "score": 50,
-            "chance": 0.3
+            "score": 20,
+            "chance": 0.25
         },
         {
             "img": "./english/img/en4.jpg",
-            "score": 200,
+            "score": 30,
+            "chance": 0.2
+        },
+        {
+            "img": "./english/img/en5.jpg",
+            "score": 100,
             "chance": 0.1
+        },
+        {
+            "img": "./english/img/en6.jpg",
+            "score": 40,
+            "chance": 0.25
         }
     ],
     "random_tile": true,
@@ -37,8 +47,16 @@
         0, 1, 1, 0
         ],
         [
+        0, 0, 1, 1,
+        0, 1, 1, 0
+        ],
+        [
         1, 1, 1, 0,
         1, 0, 0, 0
+        ],
+        [
+        0, 1, 1, 1,
+        0, 0, 0, 1
         ],
         [
         1, 1, 1, 0,

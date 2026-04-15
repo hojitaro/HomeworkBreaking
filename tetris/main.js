@@ -47,7 +47,7 @@ window.onload = () => {
     let t = 0;
     let score = 0;
     
-    ctx.font = '50px Roboto medium';
+    ctx.font = '50px chalk';
     ctx.fillStyle = "#ffae52";
     scoreboard.innerHTML = `0 ${scoreUnit}`;
 
